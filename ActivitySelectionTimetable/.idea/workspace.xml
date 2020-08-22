@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+   <select/>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d91f1ad-d527-40bc-8bf4-7dc4d49b8250" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> aeb6397dd7cea6704dccd7e0b6e1ef4650bb2068
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivitySelectionTimetable/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ActivitySelectionTimetable/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/static/css/add.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/add.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetableapp/templates/timetableapp/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/templates/timetableapp/delete.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/timetableapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetableapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetableapp/templates/timetableapp/AddClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/templates/timetableapp/AddClass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetableapp/templates/timetableapp/ClassroomTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/templates/timetableapp/ClassroomTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetableapp/templates/timetableapp/CourseTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/templates/timetableapp/CourseTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetableapp/templates/timetableapp/ProfessorTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/templates/timetableapp/ProfessorTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetableapp/templates/timetableapp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/templates/timetableapp/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetableapp/templates/timetableapp/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/templates/timetableapp/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetableapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetableapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/timetableapp/views.py" afterDir="false" />
+>>>>>>> aeb6397dd7cea6704dccd7e0b6e1ef4650bb2068
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+<<<<<<< HEAD
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/main.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="748">
+                    <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/AddCourse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/AddProfessor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="21" column="87" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/timetableapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/delete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/add.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+=======
+>>>>>>> aeb6397dd7cea6704dccd7e0b6e1ef4650bb2068
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spi</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+<<<<<<< HEAD
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/timetableapp/admin.py" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/Selection.html" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/Dashboard.html" />
+        <option value="$PROJECT_DIR$/static.css" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/ViewSection.html" />
+        <option value="$PROJECT_DIR$/timetableapp/models.py" />
+        <option value="$PROJECT_DIR$/ActivitySelectionTimetable/urls.py" />
+        <option value="$PROJECT_DIR$/static/css/swiper.css" />
+        <option value="$PROJECT_DIR$/static/css/magific-popup.css" />
+        <option value="$PROJECT_DIR$/static/css/fontawesome-all.css" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/static/js/scripts.js" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/timetableapp/widgets.py" />
+        <option value="$PROJECT_DIR$/ActivitySelectionTimetable/settings.py" />
+        <option value="$PROJECT_DIR$/static/css/tables.scss" />
+        <option value="$PROJECT_DIR$/static/js/tables.js" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/CourseTable.html" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/ProfessorTable.html" />
+        <option value="$PROJECT_DIR$/timetableapp/urls.py" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/ClassroomTable.html" />
+        <option value="$PROJECT_DIR$/static/css/tables.css" />
+        <option value="$PROJECT_DIR$/timetableapp/forms.py" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/AddProfessor.html" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/Header.html" />
+        <option value="$PROJECT_DIR$/static/css/nav.css" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/main.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/home.html" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/AddCourse.html" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/AddClass.html" />
+        <option value="$PROJECT_DIR$/timetableapp/views.py" />
+        <option value="$PROJECT_DIR$/timetableapp/templates/timetableapp/delete.html" />
+        <option value="$PROJECT_DIR$/static/css/add.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="836" />
+    <option name="height" value="741" />
+  </component>
+=======
+  <component name="ProjectId" id="1etuCqhB75N2lfyeUet9EOXgvcF" />
+>>>>>>> aeb6397dd7cea6704dccd7e0b6e1ef4650bb2068
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/media" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Analysis of Algorithm\CS311S20PID27\ActivitySelectionTimetable\static\media" />
+      <recent name="E:\Analysis of Algorithm\CS311S20PID27\ActivitySelectionTimetable\static" />
+      <recent name="E:\Analysis of Algorithm\CS311S20PID27\ActivitySelectionTimetable\static\webfonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Analysis of Algorithm\CS311S20PID27\ActivitySelectionTimetable\static\media" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ViewSection.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ActivitySelectionTimetable/timetableapp/templates/timetableapp/ViewSection.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ActivitySelectionTimetable" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ActivitySelectionTimetable" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ActivitySelectionTimetable.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d91f1ad-d527-40bc-8bf4-7dc4d49b8250" name="Default Changelist" comment="" />
+      <created>1594039642370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594039642370</updated>
+      <workItem from="1594039676063" duration="15630000" />
+      <workItem from="1594138416015" duration="2670000" />
+      <workItem from="1594199703963" duration="13181000" />
+      <workItem from="1594283439143" duration="25680000" />
+      <workItem from="1594893250413" duration="25595000" />
+      <workItem from="1594968971930" duration="42593000" />
+    </task>
+    <task id="LOCAL-00001" summary="Delete Function Working">
+      <created>1595016120002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595016120002</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="127443000" />
+  </component>
+<<<<<<< HEAD
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1374" height="746" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49896264" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49621785" weight="0.39130434" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50378215" side_tool="true" weight="0.39130434" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32850242" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49896264" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.39130434" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50378215" side_tool="true" weight="0.39130434" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32850242" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Delete Function Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete Function Working" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/timetableapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static.css" />
+    <entry file="file://$PROJECT_DIR$/timetableapp/migrations/0002_auto_20200706_2251.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/Dashboard.html" />
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/Selection.html" />
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/ViewSection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActivitySelectionTimetable/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/swiper.css" />
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/static/css/fontawesome-all.css" />
+    <entry file="file://$PROJECT_DIR$/static/css/magific-popup.css" />
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.easing.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.magnific-popup.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/popper.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/swiper.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/scripts.js" />
+    <entry file="file://$PROJECT_DIR$/timetableapp/widgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/tables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="66" lean-forward="true" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActivitySelectionTimetable/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/ProfessorTable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+          <folding>
+            <element signature="e#904#994#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/CourseTable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-end-line="66" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/ClassroomTable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/tables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="125" column="14" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="341" selection-start-line="341" selection-end-line="341" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/AddClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/AddCourse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/AddProfessor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="87" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetableapp/templates/timetableapp/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/add.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+=======
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595156551341">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1595156551341" />
+    <state x="462" y="139" key="FileChooserDialogImpl" timestamp="1595156637236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="139" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595156637236" />
+    <state x="205" y="18" key="SettingsEditor" timestamp="1595157989924">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="205" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595157989924" />
+    <state x="141" y="155" width="1182" height="544" maximized="true" key="dock-window-1" timestamp="1595153502953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="141" y="155" width="1182" height="544" maximized="true" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1595153502953" />
+    <state x="475" y="223" key="scopes" timestamp="1595167304876">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="223" key="scopes/0.0.1366.728@0.0.1366.728" timestamp="1595167304876" />
+>>>>>>> aeb6397dd7cea6704dccd7e0b6e1ef4650bb2068
+  </component>
+</project>

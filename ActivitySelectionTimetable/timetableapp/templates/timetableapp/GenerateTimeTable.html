@@ -1,0 +1,64 @@
+{% extends 'timetableapp/main.html' %}
+{% load static %}
+{% block content %}
+
+
+    <div class="container-fluid">
+
+    <div class="search">
+        <input type="text" class="searchbox" placeholder="Search...">
+        <input type="submit" value="Search" class="searchButton">
+        <a href="{% url 'add-class' %}"><button class="searchButton">Add Section </button></a>
+
+    </div>
+
+
+	<div class="table-responsive-lg">
+        <table class="table ">
+            <thead class="thead-dark">
+			<tr>
+                <div class="header__item filter__link" >
+                   <th scope="col" class="text-center">Class ID</th>
+
+                </div>
+                <div class="header__item filter__link">
+                  <th class="text-center" scope="col">Class Name</th>
+
+                </div>
+                <div class="header__item filter__link">
+                    <th class="text-center" scope="col">Generate Timetable</th>
+
+                </div>
+                <div class="header__item filter__link">
+                    <th class="text-center" scope="col">View Timetable</th>
+
+                </div>
+			</tr>	
+            </thead>
+			
+            
+			
+                {% for section in sections %}
+				
+				<tr>
+                
+					
+                        <th scope="row" class="table-light text-center">{{ section.class_id }}</th>
+                    
+						<th scope="row" class="table-dark text-center"  >{{ section.class_name }}</th>
+                   
+                        <th scope="row" class="table-light text-center"> <a href="{% url 'generate-timetable' section.class_id %}" class="btn btn-sm btn-danger" >Generate Timetable</a></th>
+                
+                        <th scope="row" class="table-dark text-center"> <a href="{% url 'generate-timetable' section.class_id %}" class="btn btn-sm btn-danger" >View Timetable</a></th>
+
+                    </tr>
+				
+                
+                {% endfor %}
+            </tbody>
+        </table>
+</div>
+    </div>
+
+
+{% endblock %}

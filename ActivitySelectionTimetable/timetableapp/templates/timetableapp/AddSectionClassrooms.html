@@ -1,0 +1,30 @@
+{% extends 'timetableapp/main.html' %}
+{% load static %}
+{% block content %}
+
+     <div class="display">
+        <div class="box">
+            <div class="header">
+                Class Classroom
+            </div>
+            <div class="form">
+                <form method="POST" action="">
+                    {% csrf_token %}
+                    {% load crispy_forms_tags %}
+                    
+                    {{ sectionroom|crispy }}
+                    <input type="submit" value="Add Classroom" class="saveButton">
+                </form>
+            </div>
+            <div>
+                <a href="{% url 'add-class' %}" class="btn btn-sm btn-info">Save</a>
+            </div>
+        </div>
+
+            <img class="gif" alt="books" src="{% static 'media/21903-online-class-animation.gif' %}">
+            <div class="viewtable"><p>You can view your added class here.<a href="{% url 'class_view' %}">View Classes</a></p></div>
+
+    </div>
+
+
+{% endblock %}

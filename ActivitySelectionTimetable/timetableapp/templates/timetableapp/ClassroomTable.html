@@ -1,0 +1,72 @@
+{% extends 'timetableapp/main.html' %}
+{% load static %}
+{% block content %}
+
+
+    <div class="container-fluid">
+
+    <div class="search">
+        <input type="text" class="searchbox" placeholder="Search...">
+        <input type="submit" value="Search" class="searchButton">
+        <a href="{% url 'add-classroom' %}"><button class="searchButton">Add Classroom </button></a>
+
+    </div>
+
+
+	<div class="table-responsive-lg">
+        <table class="table ">
+            <thead class="thead-dark">
+			<tr>
+                <div class="header__item filter__link" >
+                   <th scope="col" class="text-center">Room ID</th>
+
+                </div>
+                <div class="header__item filter__link">
+                  <th class="text-center" scope="col">Room Name</th>
+
+                </div>
+                <div class="header__item filter__link">
+                   <th class="text-center" scope="col">Room Type</th>
+
+                </div>
+
+                <div class="header__item filter__link">
+                    <th class="text-center" scope="col"> Update</th>
+
+                </div>
+                <div class="header__item filter__link">
+                     <th class="text-center" scope="col">Delete</th>
+
+                </div>
+			</tr>	
+            </thead>
+			
+            
+			
+                {% for classroom in classrooms %}
+				
+				<tr>
+                
+					
+                        <th scope="row" class="table-light text-center">{{ classroom.classroom_id }}</th>
+                    
+					
+						<th scope="row" class="table-dark text-center"  >{{ classroom.classroom_name }}</th>
+                       
+						<th scope="row" class="table-light text-center"> {{ classroom.classroom_type}}</th>
+                   
+                        <th scope="row" class="table-dark text-center"> <a href="{% url 'update-classroom' classroom.classroom_id %}" class="btn btn-sm btn-info">Update</a></th>
+                   
+                        <th scope="row" class="table-light text-center"> <a href="{% url 'delete-classroom' classroom.classroom_id %}" class="btn btn-sm btn-danger" >Remove</a></th>
+                
+					</tr>
+				
+                
+                {% endfor %}
+            </tbody>
+        </table>
+</div>
+    </div>
+
+
+{% endblock %}

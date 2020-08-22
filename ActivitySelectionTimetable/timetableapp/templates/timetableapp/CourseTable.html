@@ -1,0 +1,82 @@
+{% extends 'timetableapp/main.html' %}
+{% load static %}
+{% block content %}
+
+
+    <div class="container-fluid">
+
+    <div class="search">
+        <input type="text" class="searchbox" placeholder="Search...">
+        <input type="submit" value="Search" class="searchButton">
+        <a href="{% url 'add-course' %}"><button class="searchButton">Add Course </button></a>
+
+    </div>
+
+
+	<div class="table-responsive-lg">
+        <table class="table ">
+            <thead class="thead-dark">
+			<tr>
+                <div class="header__item filter__link" >
+                   <th scope="col" class="text-center">Course ID</th>
+
+                </div>
+                <div class="header__item filter__link">
+                  <th class="text-center" scope="col">Course Name</th>
+
+                </div>
+                <div class="header__item filter__link">
+                   <th class="text-center" scope="col">Course Type</th>
+
+                </div>
+                <div class="header__item filter__link" >
+                   <th class="text-center" scope="col">Credit Hours</th>
+
+                </div>
+                <div class="header__item filter__link">
+                   <th class="text-center" scope="col">Contact Hours</th>
+
+                </div>
+                <div class="header__item filter__link">
+                    <th class="text-center" scope="col"> Update</th>
+
+                </div>
+                <div class="header__item filter__link">
+                     <th class="text-center" scope="col">Delete</th>
+
+                </div>
+			</tr>	
+            </thead>
+			
+            
+			
+                {% for corse in course %}
+				
+				<tr>
+                
+					
+                        <th scope="row" class="table-light text-center">{{ corse.course_id }}</th>
+                    
+					
+						<th scope="row" class="table-dark text-center"  >{{ corse.course_name }}</th>
+                       
+						<th scope="row" class="table-light text-center"> {{ corse.course_type}}</th>
+						<th scope="row" class="table-dark text-center"> {{ corse.credit_hours}}</th>
+                  
+                        <th scope="row" class="table-light text-center"> {{ corse.contact_hours}}</th>
+                   
+                        <th scope="row" class="table-dark text-center"> <a href="{% url 'update-course' corse.course_id %}" class="btn btn-sm btn-info">Update</a></th>
+                   
+                        <th scope="row" class="table-light text-center"> <a href="{% url 'delete-course' corse.course_id %}" class="btn btn-sm btn-danger" >Remove</a></th>
+                
+					</tr>
+				
+                
+                {% endfor %}
+            </tbody>
+        </table>
+</div>
+    </div>
+
+
+{% endblock %}

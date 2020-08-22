@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+	<link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/tables.css' %}" rel="stylesheet">
+    <link href="{% static 'css/add.css' %}" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" src="extensions/sticky-header/bootstrap-table-sticky-header.css">
+    <script src="extensions/sticky-header/bootstrap-table-sticky-header.js"></script>
+    <style>
+        
+        html,body {
+        margin: 0;
+        font-family: "Karla";
+        color: #546e7a;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        .timetable {
+        display: grid;
+        grid-template-areas: ". week" "time content";
+        grid-template-columns: 120px;
+        grid-template-rows: 60px;
+        width: 100vw;
+        height: 100vh;
+        }
+        .timetable .accent-pink-gradient {
+        display: -webkit-box;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #ee8ebc, #eea08e);
+        -webkit-transition: 0.2s ease box-shadow, 0.2s ease transform;
+        transition: 0.2s ease box-shadow, 0.2s ease transform;
+        }
+
+        .timetable .accent-orange-gradient {
+        display: -webkit-box;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #eec08e, #dcee8e);
+        -webkit-transition: 0.2s ease box-shadow, 0.2s ease transform;
+        transition: 0.2s ease box-shadow, 0.2s ease transform;
+        }
+
+        .timetable .accent-green-gradient {
+        display: -webkit-box;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #bcee8e, #8eeea0);
+        -webkit-transition: 0.2s ease box-shadow, 0.2s ease transform;
+        transition: 0.2s ease box-shadow, 0.2s ease transform;
+        }
+
+        .timetable .accent-cyan-gradient {
+        display: -webkit-box;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #8eeec0, #8edcee);
+        -webkit-transition: 0.2s ease box-shadow, 0.2s ease transform;
+        transition: 0.2s ease box-shadow, 0.2s ease transform;
+        }
+
+        .timetable .accent-blue-gradient {
+        display: -webkit-box;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #8ebcee, #a08eee);
+        -webkit-transition: 0.2s ease box-shadow, 0.2s ease transform;
+        transition: 0.2s ease box-shadow, 0.2s ease transform;
+        }
+
+        .timetable .accent-purple-gradient {
+        display: -webkit-box;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #c08eee, #ee8edc);
+        -webkit-transition: 0.2s ease box-shadow, 0.2s ease transform;
+        transition: 0.2s ease box-shadow, 0.2s ease transform;
+        }
+        .timetable .weekend {
+        background: #fbfbfc;
+        color: #87a1ad;
+        }
+        .timetable .week-names {
+        grid-area: week;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-transform: uppercase;
+        font-size: 12px;
+        }
+        .timetable .week-names > div {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+                justify-content: center;
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 1px 0 0 #eceff1;
+        }
+        .timetable .time-interval {
+        grid-area: time;
+        display: grid;
+        grid-template-rows: repeat(7, 1fr);
+        font-size: 14px;
+        }
+        .timetable .time-interval > div {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+                justify-content: center;
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 0 1px 0 0 #eceff1;
+        }
+        .timetable .content {
+        grid-area: content;
+        display: grid;
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+        }
+        .timetable .content > div {
+        box-shadow: inset 1px 0 0 #eceff1, inset 0 1px 0 0 #eceff1;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+<div class="timetable" id="pdftimetable">
+    <div class="week-names">
+      {% for day in section.week_day %}
+        <div>{{day}}</div>
+      {% endfor %}
+      
+      <!--
+      <div>monday</div>
+      <div>tuesday</div>
+      <div>wednesday</div>
+      <div>thursday</div>
+      <div>friday</div>
+      <div class="weekend">saturday</div>
+      <div class="weekend">sunday</div>
+      -->
+    </div>
+    <div class="time-interval">
+      {% for x in time_slot %}
+				
+        <div>{{x}}</div>
+
+				
+                
+      {% endfor %}
+      <!--      <div>10:00 - 12:00</div>
+      <div>12:00 - 14:00</div>
+      <div>14:00 - 16:00</div>
+      <div>16:00 - 18:00</div>
+      <div>18:00 - 20:00</div>
+      -->
+    </div>
+    <div class="content">
+      {% for x in time %}
+        {% for day in section.week_day %}
+          <div>
+            {% for activity in activities %}
+              {% for course in courses %}
+                {% if activity.course_id == course.course_id %}
+                  {% if activity.day == day %}
+                    {% if  x == activity.start_time %}
+                    <p style="text-align:center; margin:0 !important; padding:0 !important">{{course.course_name}} -
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+                   
+              {% endfor %}
+            {% endfor %}
+             
+            {% for activity in activities %}
+              {% for professor in professors %}
+                {% if activity.professor_id == professor.professor_id %}
+                  {% if activity.day == day %}
+                    {% if  x == activity.start_time %}
+                      {{professor.professor_name}}
+                    {% endif %}
+                  {% endif %}
+                {% endif %}      
+              {% endfor %}
+            {% endfor %} 
+            <br>
+            {% for activity in activities %}
+                  {% if activity.day == day %}
+                    {% if  x == activity.start_time %}
+                      {{activity.classroom_id}}
+                    {% endif %}
+                  {% endif %}
+            {% endfor %} 
+           </p>       
+               
+                
+            
+          </div>
+        {% endfor %}
+
+      {% endfor %}
+      <!--
+      <div>
+        <div class="accent-orange-gradient"></div>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+          <div>
+        <div class="accent-green-gradient"></div>
+      </div>
+      <div class="weekend"></div>
+      <div class="weekend"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div>
+        <div class="accent-cyan-gradient"></div>
+      </div>
+      <div></div>
+      <div class="weekend"></div>
+      <div class="weekend"></div>
+      <div>
+        <div class="accent-pink-gradient"></div>
+      </div>
+      <div></div>
+      <div>
+        <div class="accent-purple-gradient"></div>
+      </div>
+      <div></div>
+      <div></div>
+      <div class="weekend"></div>
+      <div class="weekend"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div class="weekend"></div>
+      <div class="weekend"></div>
+      <div>
+        <div class="accent-purple-gradient"></div>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div class="weekend"></div>
+      <div class="weekend"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div class="weekend"></div>
+      <div class="weekend"></div>
+    </div>
+  -->
+
+</div>
+<div id="editor"></div>
+<button id="cmd" class="button">generate PDF</button>
+
+
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.22/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+<script type="text/javascript">
+    $(".timetable").on("click", "#cmd", function () {
+        html2canvas($('#pdftimetable')[0], {
+            onrendered: function (canvas) {
+                var data = canvas.toDataURL();
+                var docDefinition = {
+                    content: [{
+                        image: data,
+                        width: 500
+                    }]
+                };
+                pdfMake.createPdf(docDefinition).download("TimeTable.pdf");
+            }
+        });
+    });
+</script>
+</body>
+</html>

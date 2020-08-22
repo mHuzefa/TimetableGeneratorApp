@@ -1,0 +1,18 @@
+{% extends 'timetableapp/main.html' %}
+
+
+{% block content %}
+
+        <form method="POST" action="">
+            {% csrf_token %}
+            {% load crispy_forms_tags %}
+            <div>
+                {{ form|crispy }}
+
+                <input type="submit" value="Add" class="info">
+
+
+            </div>
+        </form>
+
+{% endblock %}

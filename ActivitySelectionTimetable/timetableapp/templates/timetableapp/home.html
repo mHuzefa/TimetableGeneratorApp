@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+	<link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/tables.css' %}" rel="stylesheet">
+    <link href="{% static 'css/add.css' %}" rel="stylesheet">
+    <link href="{% static 'css/nav.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" src="extensions/sticky-header/bootstrap-table-sticky-header.css">
+    <script src="extensions/sticky-header/bootstrap-table-sticky-header.js"></script>
+
+
+</head>
+{% block content %}
+<title>Home - Activity Scheduling App</title>
+<nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class=" btn d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse collapse" data-toggle="collapse" aria-expanded="false" id="navbarNav">
+        <ul class="nav navbar-nav">
+          <li class="nav-item text-center active">
+            <a class="nav-link link" href="{% url 'selection' %}">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link link" href="#course_display">Courses</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link link" href="#professor_display">Professors</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link link " href="#classroom_display">Classrooms</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link link " href="#class_display">Classes</a>
+          </li>
+
+        </ul>
+      </div>
+        </div>
+</nav>
+
+    <img id="branding" src="{% static 'media/main_image.png' %}">
+
+    <div><h1 id="tag">WE CARE FOR YOU</h1></div>
+    <div><p id="para1">We have made it easier than ever to create a timetable best suited to your needs.your customized timetable is just one click away.</p></div>
+    <a href="{% url 'class_view' %}"><input type="button" class="button" value="Generate Timetable"></a>
+
+    <a href="#courses"><input type="button" class="info" value="Add Information"></a>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <hr>
+    <div id="course_display">
+        <div id="courses">
+            <h3 id="tag_course">Courses</h3>
+            <p id="para_course">You can easily add courses into database by just clicking the button below. This data will be retrieved while generating the time table.</p>
+            <a  href="{% url 'add-course' %}"><button class="course_button" >Add Course</button></a>
+        </div>
+        <div><img id="course_img" src="{% static 'media/courses-01.png' %}"></div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div id="professor_display">
+        <div id="professor">
+            <h3 id="prof_tag">Professors</h3>
+            <p id="prof_para">Professors data will be saved in the database. You will be directed to the professor form where you will add the information about professor.</p>
+            <a href="{% url 'add-professor' %}" ><input type="button" class="prof_button" value="Add Professor"></a>
+        </div>
+         <div><img alt="professor" id="prof_img" src="{% static 'media/professor-01.png' %}"></div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div id="classroom_display">
+        <div id="courses">
+            <h3 id="tag_course">Classrooms</h3>
+            <p id="para_course">In this app, You have facility to add more than one class rooms at a time and it will generate the suitable timetable for you which you can access any time in your account.</p>
+            <a href="{% url 'add-classroom' %}"><button class="course_button">Add Classroom</button></a>
+        </div>
+         <div><img  id="course_img" src="{% static 'media/classroom.png' %}"></div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="class_display">
+        <div id="professor">
+            <h3 id="prof_tag">Sections</h3>
+            <p id="prof_para">In this app, You have facility to add more than one classes at a time and it will generate the suitable timetable for you which you can access any time in your account.</p>
+            <a href="{% url 'add-class' %}"><input type="button" class="prof_button" value="Add Section"></a>
+        </div>
+         <div><img alt="class" id="prof_img" src="{% static 'media/class-01.png' %}"></div>
+    </div>
+
+
+<br>
+<br>
+
+
+{% endblock %}
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>

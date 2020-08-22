@@ -1,0 +1,38 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+
+.nav-item{
+    font-family: Roboto, sans-serif !important;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.logout{
+	width: 20px !important;
+	height: 8px !important;
+	border: 2px solid red !important;
+	border-radius: 10% !important;
+	background-color: red !important;
+}
+
+
+
